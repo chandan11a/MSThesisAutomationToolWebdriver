@@ -1,4 +1,4 @@
-# Project Assessment:(Sulis Test)
+# (Sulis Test)
 The provided repository contains an automation scripts for 5 test cases written on Sulis. https://sulis.ul.ie/
 
 
