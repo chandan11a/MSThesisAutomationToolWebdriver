@@ -1,0 +1,495 @@
+25/07/2020 15:51:15 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+25/07/2020 15:51:15 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+25/07/2020 15:51:15 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:15913][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+25/07/2020 15:51:15 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 0][route: {}->http://localhost:15913][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:15 org.apache.http.impl.execchain.MainClientExec Opening connection {}->http://localhost:15913
+25/07/2020 15:51:15 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connecting to localhost/127.0.0.1:15913
+25/07/2020 15:51:15 org.apache.http.impl.conn.DefaultHttpClientConnectionOperator Connection established 127.0.0.1:57880<->127.0.0.1:15913
+25/07/2020 15:51:15 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-0: set socket timeout to 10800000
+25/07/2020 15:51:15 org.apache.http.impl.execchain.MainClientExec Executing request POST /session HTTP/1.1
+25/07/2020 15:51:15 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+25/07/2020 15:51:15 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+25/07/2020 15:51:15 org.apache.http.headers http-outgoing-0 >> POST /session HTTP/1.1
+25/07/2020 15:51:15 org.apache.http.headers http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+25/07/2020 15:51:15 org.apache.http.headers http-outgoing-0 >> Content-Length: 550
+25/07/2020 15:51:15 org.apache.http.headers http-outgoing-0 >> Host: localhost:15913
+25/07/2020 15:51:15 org.apache.http.headers http-outgoing-0 >> Connection: Keep-Alive
+25/07/2020 15:51:15 org.apache.http.headers http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)
+25/07/2020 15:51:15 org.apache.http.headers http-outgoing-0 >> Accept-Encoding: gzip,deflate
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "Content-Length: 550[\r][\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "Host: localhost:15913[\r][\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)[\r][\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "[\r][\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "{[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "    "chromeOptions": {[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "      "args": [],[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "      "extensions": [][\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "    },[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "    "version": "",[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "    "platform": "ANY"[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "  },[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "  "capabilities": {[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "      "chromeOptions": {[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "        "args": [],[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "        "extensions": [][\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "      },[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "      "version": "",[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "      "platform": "ANY"[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "    },[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "    "firstMatch": [[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "      {[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "      }[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "    ][\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "  }[\n]"
+25/07/2020 15:51:15 org.apache.http.wire http-outgoing-0 >> "}"
+25/07/2020 15:51:20 org.apache.http.wire http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+25/07/2020 15:51:20 org.apache.http.wire http-outgoing-0 << "Content-Length:717[\r][\n]"
+25/07/2020 15:51:20 org.apache.http.wire http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:20 org.apache.http.wire http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+25/07/2020 15:51:20 org.apache.http.wire http-outgoing-0 << "[\r][\n]"
+25/07/2020 15:51:20 org.apache.http.wire http-outgoing-0 << "{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"84.0.4147.89","chrome":{"chromedriverVersion":"83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416})","userDataDir":"C:\\Users\\Admin\\AppData\\Local\\Temp\\scoped_dir12068_1947362518"},"goog:chromeOptions":{"debuggerAddress":"localhost:57882"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:virtualAuthenticators":true},"sessionId":"9a85de4878de538a448086a204476b4c"}}"
+25/07/2020 15:51:20 org.apache.http.headers http-outgoing-0 << HTTP/1.1 200 OK
+25/07/2020 15:51:20 org.apache.http.headers http-outgoing-0 << Content-Length:717
+25/07/2020 15:51:20 org.apache.http.headers http-outgoing-0 << Content-Type:application/json; charset=utf-8
+25/07/2020 15:51:20 org.apache.http.headers http-outgoing-0 << cache-control:no-cache
+25/07/2020 15:51:20 org.apache.http.impl.execchain.MainClientExec Connection can be kept alive indefinitely
+25/07/2020 15:51:20 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection [id: 0][route: {}->http://localhost:15913] can be kept alive indefinitely
+25/07/2020 15:51:20 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 0][route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:20 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+25/07/2020 15:51:20 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+25/07/2020 15:51:20 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:20 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 0][route: {}->http://localhost:15913][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:20 org.apache.http.impl.execchain.MainClientExec Stale connection check
+25/07/2020 15:51:20 org.apache.http.wire http-outgoing-0 << "[read] I/O error: Read timed out"
+25/07/2020 15:51:20 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-0: set socket timeout to 10800000
+25/07/2020 15:51:20 org.apache.http.impl.execchain.MainClientExec Executing request POST /session/9a85de4878de538a448086a204476b4c/url HTTP/1.1
+25/07/2020 15:51:20 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+25/07/2020 15:51:20 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+25/07/2020 15:51:20 org.apache.http.headers http-outgoing-0 >> POST /session/9a85de4878de538a448086a204476b4c/url HTTP/1.1
+25/07/2020 15:51:20 org.apache.http.headers http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+25/07/2020 15:51:20 org.apache.http.headers http-outgoing-0 >> Content-Length: 30
+25/07/2020 15:51:20 org.apache.http.headers http-outgoing-0 >> Host: localhost:15913
+25/07/2020 15:51:20 org.apache.http.headers http-outgoing-0 >> Connection: Keep-Alive
+25/07/2020 15:51:20 org.apache.http.headers http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)
+25/07/2020 15:51:20 org.apache.http.headers http-outgoing-0 >> Accept-Encoding: gzip,deflate
+25/07/2020 15:51:20 org.apache.http.wire http-outgoing-0 >> "POST /session/9a85de4878de538a448086a204476b4c/url HTTP/1.1[\r][\n]"
+25/07/2020 15:51:20 org.apache.http.wire http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:20 org.apache.http.wire http-outgoing-0 >> "Content-Length: 30[\r][\n]"
+25/07/2020 15:51:20 org.apache.http.wire http-outgoing-0 >> "Host: localhost:15913[\r][\n]"
+25/07/2020 15:51:20 org.apache.http.wire http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+25/07/2020 15:51:20 org.apache.http.wire http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)[\r][\n]"
+25/07/2020 15:51:20 org.apache.http.wire http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+25/07/2020 15:51:20 org.apache.http.wire http-outgoing-0 >> "[\r][\n]"
+25/07/2020 15:51:20 org.apache.http.wire http-outgoing-0 >> "{"url":"https://sulis.ul.ie/"}"
+25/07/2020 15:51:28 org.apache.http.wire http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+25/07/2020 15:51:28 org.apache.http.wire http-outgoing-0 << "Content-Length:14[\r][\n]"
+25/07/2020 15:51:28 org.apache.http.wire http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:28 org.apache.http.wire http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+25/07/2020 15:51:28 org.apache.http.wire http-outgoing-0 << "[\r][\n]"
+25/07/2020 15:51:28 org.apache.http.wire http-outgoing-0 << "{"value":null}"
+25/07/2020 15:51:28 org.apache.http.headers http-outgoing-0 << HTTP/1.1 200 OK
+25/07/2020 15:51:28 org.apache.http.headers http-outgoing-0 << Content-Length:14
+25/07/2020 15:51:28 org.apache.http.headers http-outgoing-0 << Content-Type:application/json; charset=utf-8
+25/07/2020 15:51:28 org.apache.http.headers http-outgoing-0 << cache-control:no-cache
+25/07/2020 15:51:28 org.apache.http.impl.execchain.MainClientExec Connection can be kept alive indefinitely
+25/07/2020 15:51:28 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection [id: 0][route: {}->http://localhost:15913] can be kept alive indefinitely
+25/07/2020 15:51:28 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 0][route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:28 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+25/07/2020 15:51:28 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+25/07/2020 15:51:28 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:28 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 0][route: {}->http://localhost:15913][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:28 org.apache.http.impl.execchain.MainClientExec Stale connection check
+25/07/2020 15:51:28 org.apache.http.wire http-outgoing-0 << "[read] I/O error: Read timed out"
+25/07/2020 15:51:28 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-0: set socket timeout to 10800000
+25/07/2020 15:51:28 org.apache.http.impl.execchain.MainClientExec Executing request POST /session/9a85de4878de538a448086a204476b4c/window/maximize HTTP/1.1
+25/07/2020 15:51:28 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+25/07/2020 15:51:28 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+25/07/2020 15:51:28 org.apache.http.headers http-outgoing-0 >> POST /session/9a85de4878de538a448086a204476b4c/window/maximize HTTP/1.1
+25/07/2020 15:51:28 org.apache.http.headers http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+25/07/2020 15:51:28 org.apache.http.headers http-outgoing-0 >> Content-Length: 2
+25/07/2020 15:51:28 org.apache.http.headers http-outgoing-0 >> Host: localhost:15913
+25/07/2020 15:51:28 org.apache.http.headers http-outgoing-0 >> Connection: Keep-Alive
+25/07/2020 15:51:28 org.apache.http.headers http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)
+25/07/2020 15:51:28 org.apache.http.headers http-outgoing-0 >> Accept-Encoding: gzip,deflate
+25/07/2020 15:51:28 org.apache.http.wire http-outgoing-0 >> "POST /session/9a85de4878de538a448086a204476b4c/window/maximize HTTP/1.1[\r][\n]"
+25/07/2020 15:51:28 org.apache.http.wire http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:28 org.apache.http.wire http-outgoing-0 >> "Content-Length: 2[\r][\n]"
+25/07/2020 15:51:28 org.apache.http.wire http-outgoing-0 >> "Host: localhost:15913[\r][\n]"
+25/07/2020 15:51:28 org.apache.http.wire http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+25/07/2020 15:51:28 org.apache.http.wire http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)[\r][\n]"
+25/07/2020 15:51:28 org.apache.http.wire http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+25/07/2020 15:51:28 org.apache.http.wire http-outgoing-0 >> "[\r][\n]"
+25/07/2020 15:51:28 org.apache.http.wire http-outgoing-0 >> "{}"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "Content-Length:51[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "{"value":{"height":876,"width":1616,"x":-8,"y":-8}}"
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << HTTP/1.1 200 OK
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << Content-Length:51
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << Content-Type:application/json; charset=utf-8
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << cache-control:no-cache
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Connection can be kept alive indefinitely
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection [id: 0][route: {}->http://localhost:15913] can be kept alive indefinitely
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 0][route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+25/07/2020 15:51:31 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 0][route: {}->http://localhost:15913][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Stale connection check
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "[read] I/O error: Read timed out"
+25/07/2020 15:51:31 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-0: set socket timeout to 10800000
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Executing request POST /session/9a85de4878de538a448086a204476b4c/timeouts HTTP/1.1
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> POST /session/9a85de4878de538a448086a204476b4c/timeouts HTTP/1.1
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Content-Length: 18
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Host: localhost:15913
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Connection: Keep-Alive
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Accept-Encoding: gzip,deflate
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "POST /session/9a85de4878de538a448086a204476b4c/timeouts HTTP/1.1[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Content-Length: 18[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Host: localhost:15913[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "{"implicit":20000}"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "Content-Length:14[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "{"value":null}"
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << HTTP/1.1 200 OK
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << Content-Length:14
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << Content-Type:application/json; charset=utf-8
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << cache-control:no-cache
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Connection can be kept alive indefinitely
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection [id: 0][route: {}->http://localhost:15913] can be kept alive indefinitely
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 0][route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+25/07/2020 15:51:31 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 0][route: {}->http://localhost:15913][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Stale connection check
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "[read] I/O error: Read timed out"
+25/07/2020 15:51:31 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-0: set socket timeout to 10800000
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Executing request POST /session/9a85de4878de538a448086a204476b4c/element HTTP/1.1
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> POST /session/9a85de4878de538a448086a204476b4c/element HTTP/1.1
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Content-Length: 39
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Host: localhost:15913
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Connection: Keep-Alive
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Accept-Encoding: gzip,deflate
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "POST /session/9a85de4878de538a448086a204476b4c/element HTTP/1.1[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Content-Length: 39[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Host: localhost:15913[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "{"value":"#eid","using":"css selector"}"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "Content-Length:88[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"c7a69acf-614b-449b-bcd8-d18e171687d3"}}"
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << HTTP/1.1 200 OK
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << Content-Length:88
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << Content-Type:application/json; charset=utf-8
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << cache-control:no-cache
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Connection can be kept alive indefinitely
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection [id: 0][route: {}->http://localhost:15913] can be kept alive indefinitely
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 0][route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+25/07/2020 15:51:31 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 0][route: {}->http://localhost:15913][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Stale connection check
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "[read] I/O error: Read timed out"
+25/07/2020 15:51:31 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-0: set socket timeout to 10800000
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Executing request POST /session/9a85de4878de538a448086a204476b4c/element/c7a69acf-614b-449b-bcd8-d18e171687d3/value HTTP/1.1
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> POST /session/9a85de4878de538a448086a204476b4c/element/c7a69acf-614b-449b-bcd8-d18e171687d3/value HTTP/1.1
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Content-Length: 105
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Host: localhost:15913
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Connection: Keep-Alive
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Accept-Encoding: gzip,deflate
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "POST /session/9a85de4878de538a448086a204476b4c/element/c7a69acf-614b-449b-bcd8-d18e171687d3/value HTTP/1.1[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Content-Length: 105[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Host: localhost:15913[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "{"id":"c7a69acf-614b-449b-bcd8-d18e171687d3","text":"19151675","value":["1","9","1","5","1","6","7","5"]}"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "Content-Length:14[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "{"value":null}"
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << HTTP/1.1 200 OK
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << Content-Length:14
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << Content-Type:application/json; charset=utf-8
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << cache-control:no-cache
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Connection can be kept alive indefinitely
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection [id: 0][route: {}->http://localhost:15913] can be kept alive indefinitely
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 0][route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+25/07/2020 15:51:31 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 0][route: {}->http://localhost:15913][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Stale connection check
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "[read] I/O error: Read timed out"
+25/07/2020 15:51:31 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-0: set socket timeout to 10800000
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Executing request POST /session/9a85de4878de538a448086a204476b4c/element HTTP/1.1
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> POST /session/9a85de4878de538a448086a204476b4c/element HTTP/1.1
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Content-Length: 38
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Host: localhost:15913
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Connection: Keep-Alive
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Accept-Encoding: gzip,deflate
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "POST /session/9a85de4878de538a448086a204476b4c/element HTTP/1.1[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Content-Length: 38[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Host: localhost:15913[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "{"value":"#pw","using":"css selector"}"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "Content-Length:88[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"69c46af4-0fa1-496d-8490-57f710e53b31"}}"
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << HTTP/1.1 200 OK
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << Content-Length:88
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << Content-Type:application/json; charset=utf-8
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << cache-control:no-cache
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Connection can be kept alive indefinitely
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection [id: 0][route: {}->http://localhost:15913] can be kept alive indefinitely
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 0][route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+25/07/2020 15:51:31 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 0][route: {}->http://localhost:15913][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Stale connection check
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "[read] I/O error: Read timed out"
+25/07/2020 15:51:31 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-0: set socket timeout to 10800000
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Executing request POST /session/9a85de4878de538a448086a204476b4c/element/69c46af4-0fa1-496d-8490-57f710e53b31/value HTTP/1.1
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> POST /session/9a85de4878de538a448086a204476b4c/element/69c46af4-0fa1-496d-8490-57f710e53b31/value HTTP/1.1
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Content-Length: 110
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Host: localhost:15913
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Connection: Keep-Alive
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Accept-Encoding: gzip,deflate
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "POST /session/9a85de4878de538a448086a204476b4c/element/69c46af4-0fa1-496d-8490-57f710e53b31/value HTTP/1.1[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Content-Length: 110[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Host: localhost:15913[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "{"id":"69c46af4-0fa1-496d-8490-57f710e53b31","text":"Mom@3148@","value":["M","o","m","@","3","1","4","8","@"]}"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "Content-Length:14[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "{"value":null}"
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << HTTP/1.1 200 OK
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << Content-Length:14
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << Content-Type:application/json; charset=utf-8
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << cache-control:no-cache
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Connection can be kept alive indefinitely
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection [id: 0][route: {}->http://localhost:15913] can be kept alive indefinitely
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 0][route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+25/07/2020 15:51:31 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 0][route: {}->http://localhost:15913][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Stale connection check
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "[read] I/O error: Read timed out"
+25/07/2020 15:51:31 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-0: set socket timeout to 10800000
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Executing request POST /session/9a85de4878de538a448086a204476b4c/element HTTP/1.1
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> POST /session/9a85de4878de538a448086a204476b4c/element HTTP/1.1
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Content-Length: 42
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Host: localhost:15913
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Connection: Keep-Alive
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Accept-Encoding: gzip,deflate
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "POST /session/9a85de4878de538a448086a204476b4c/element HTTP/1.1[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Content-Length: 42[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Host: localhost:15913[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "{"value":"#submit","using":"css selector"}"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "Content-Length:88[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"b96ac8a9-5b47-45e0-94f8-39b2e7de4f23"}}"
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << HTTP/1.1 200 OK
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << Content-Length:88
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << Content-Type:application/json; charset=utf-8
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 << cache-control:no-cache
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Connection can be kept alive indefinitely
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection [id: 0][route: {}->http://localhost:15913] can be kept alive indefinitely
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 0][route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+25/07/2020 15:51:31 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 0][route: {}->http://localhost:15913][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Stale connection check
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 << "[read] I/O error: Read timed out"
+25/07/2020 15:51:31 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-0: set socket timeout to 10800000
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Executing request POST /session/9a85de4878de538a448086a204476b4c/element/b96ac8a9-5b47-45e0-94f8-39b2e7de4f23/click HTTP/1.1
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+25/07/2020 15:51:31 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> POST /session/9a85de4878de538a448086a204476b4c/element/b96ac8a9-5b47-45e0-94f8-39b2e7de4f23/click HTTP/1.1
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Content-Length: 45
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Host: localhost:15913
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Connection: Keep-Alive
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)
+25/07/2020 15:51:31 org.apache.http.headers http-outgoing-0 >> Accept-Encoding: gzip,deflate
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "POST /session/9a85de4878de538a448086a204476b4c/element/b96ac8a9-5b47-45e0-94f8-39b2e7de4f23/click HTTP/1.1[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Content-Length: 45[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Host: localhost:15913[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "[\r][\n]"
+25/07/2020 15:51:31 org.apache.http.wire http-outgoing-0 >> "{"id":"b96ac8a9-5b47-45e0-94f8-39b2e7de4f23"}"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 << "Content-Length:14[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 << "[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 << "{"value":null}"
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 << HTTP/1.1 200 OK
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 << Content-Length:14
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 << Content-Type:application/json; charset=utf-8
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 << cache-control:no-cache
+25/07/2020 15:51:35 org.apache.http.impl.execchain.MainClientExec Connection can be kept alive indefinitely
+25/07/2020 15:51:35 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection [id: 0][route: {}->http://localhost:15913] can be kept alive indefinitely
+25/07/2020 15:51:35 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 0][route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:35 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+25/07/2020 15:51:35 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+25/07/2020 15:51:35 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:35 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 0][route: {}->http://localhost:15913][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:35 org.apache.http.impl.execchain.MainClientExec Stale connection check
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 << "[read] I/O error: Read timed out"
+25/07/2020 15:51:35 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-0: set socket timeout to 10800000
+25/07/2020 15:51:35 org.apache.http.impl.execchain.MainClientExec Executing request POST /session/9a85de4878de538a448086a204476b4c/element HTTP/1.1
+25/07/2020 15:51:35 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+25/07/2020 15:51:35 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 >> POST /session/9a85de4878de538a448086a204476b4c/element HTTP/1.1
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 >> Content-Length: 55
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 >> Host: localhost:15913
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 >> Connection: Keep-Alive
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 >> Accept-Encoding: gzip,deflate
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 >> "POST /session/9a85de4878de538a448086a204476b4c/element HTTP/1.1[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 >> "Content-Length: 55[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 >> "Host: localhost:15913[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 >> "[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 >> "{"value":"//span[text()='Membership']","using":"xpath"}"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 << "Content-Length:88[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 << "[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"27ec23cb-2452-430a-833d-8762bc112c0f"}}"
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 << HTTP/1.1 200 OK
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 << Content-Length:88
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 << Content-Type:application/json; charset=utf-8
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 << cache-control:no-cache
+25/07/2020 15:51:35 org.apache.http.impl.execchain.MainClientExec Connection can be kept alive indefinitely
+25/07/2020 15:51:35 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection [id: 0][route: {}->http://localhost:15913] can be kept alive indefinitely
+25/07/2020 15:51:35 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 0][route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:35 org.apache.http.client.protocol.RequestAddCookies CookieSpec selected: default
+25/07/2020 15:51:35 org.apache.http.client.protocol.RequestAuthCache Auth cache not set in the context
+25/07/2020 15:51:35 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection request: [route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:35 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection leased: [id: 0][route: {}->http://localhost:15913][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:35 org.apache.http.impl.execchain.MainClientExec Stale connection check
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 << "[read] I/O error: Read timed out"
+25/07/2020 15:51:35 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-0: set socket timeout to 10800000
+25/07/2020 15:51:35 org.apache.http.impl.execchain.MainClientExec Executing request DELETE /session/9a85de4878de538a448086a204476b4c HTTP/1.1
+25/07/2020 15:51:35 org.apache.http.impl.execchain.MainClientExec Target auth state: UNCHALLENGED
+25/07/2020 15:51:35 org.apache.http.impl.execchain.MainClientExec Proxy auth state: UNCHALLENGED
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 >> DELETE /session/9a85de4878de538a448086a204476b4c HTTP/1.1
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 >> Host: localhost:15913
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 >> Connection: Keep-Alive
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 >> Accept-Encoding: gzip,deflate
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 >> "DELETE /session/9a85de4878de538a448086a204476b4c HTTP/1.1[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 >> "Host: localhost:15913[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_231)[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 >> "[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 << "Content-Length:14[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 << "[\r][\n]"
+25/07/2020 15:51:35 org.apache.http.wire http-outgoing-0 << "{"value":null}"
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 << HTTP/1.1 200 OK
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 << Content-Length:14
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 << Content-Type:application/json; charset=utf-8
+25/07/2020 15:51:35 org.apache.http.headers http-outgoing-0 << cache-control:no-cache
+25/07/2020 15:51:35 org.apache.http.impl.execchain.MainClientExec Connection can be kept alive indefinitely
+25/07/2020 15:51:35 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection [id: 0][route: {}->http://localhost:15913] can be kept alive indefinitely
+25/07/2020 15:51:35 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Connection released: [id: 0][route: {}->http://localhost:15913][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+25/07/2020 15:51:35 org.apache.http.impl.conn.PoolingHttpClientConnectionManager Closing connections idle longer than 0 SECONDS
+25/07/2020 15:51:35 org.apache.http.impl.conn.DefaultManagedHttpClientConnection http-outgoing-0: Close connection
